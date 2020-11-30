@@ -1,0 +1,77 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: url(https://img5.goodfon.com/wallpaper/nbig/3/2e/zima-zakat-gory-derevia-sneg-sugroby-priroda-peizazh.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    
+}
+.santa{
+    height: 400px;
+    width: 600px;
+    border-collapse: collapse;
+    font-size: 30px;
+    overflow: hidden;
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px 0;
+    margin-left: 70px;
+    background-image: url(https://blogmedia.dealerfire.com/wp-content/uploads/sites/767/2020/01/snow-fall-sky_b.jpg);
+    box-shadow: 4px 4px 5px red;
+
+    
+
+
+
+
+}
+h1{ 
+    height: 70px;
+    background-image: url(https://www.lep.co.uk/images-a.jpimedia.uk/imagefetch/http://www.lep.co.uk/webimage/Prestige.Item.1.105919891!image/image.jpg?crop=982:524,smart&width=990);
+    text-align: center;
+    color: red;
+    padding-top: 20px;
+    animation: spin 4s linear infinite;
+    
+}
+h1:hover{
+    color:rgb(239, 238, 247);
+    text-shadow: black 3px 3px 3px;
+   
+}
+.santa th{
+    color: rgb(253, 247, 247);
+    text-shadow: red 3px 4px 5px ;
+    border-bottom: 2px rgb(247, 237, 237) dotted;
+    padding: 10px;
+    /* position: sticky; */
+
+
+
+}
+.santa th:hover{
+    font-size: 30px;
+    text-shadow: 3px 3px 3px rgb(14, 13, 13);
+}
+.santa td:hover{
+    font-size: 40px;
+    text-shadow: 3px 3px 3px black;
+    
+}
+@keyframes spin{
+    0%,100%{
+        left: 20px;
+        right: 100px;
+        
+    }
+    25%,50%{
+        left: 100px;
+        right: 20px;
+        
+    }
+}
